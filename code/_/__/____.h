@@ -11,37 +11,37 @@ namespace _
     class ____
     {
     public:
-      void The()
+      static void The()
       {
         _::___::__::engine();
       }
 
-      void was()
+      static void was()
       {
         _::___::__::tricky();
       }
 
-      void all()
+      static void all()
       {
         _::___::_____::made();
       }
 
-      void wood()
+      static void wood()
       {
         _::___::____::right();
       }
 
-      void craftsmanship()
+      static void craftsmanship()
       {
         _::___::_____::The();
       }
 
-      void only()
+      static void only()
       {
         _::__::____::problem();
       }
 
-      void problem()
+      static void problem()
       {
         _::___::___::with();
       }

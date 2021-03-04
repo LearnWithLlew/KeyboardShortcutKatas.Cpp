@@ -11,42 +11,42 @@ namespace _
     class _____
     {
     public:
-      void wood()
+      static void wood()
       {
         _::__::___::I();
       }
 
-      void all()
+      static void all()
       {
         _::___::_____::wooden();
       }
 
-      void wooden()
+      static void wooden()
       {
         _::__::____::The();
       }
 
-      void made()
+      static void made()
       {
         _::___::___::from();
       }
 
-      void rings()
+      static void rings()
       {
         _::___::__::It();
       }
 
-      void The()
+      static void The()
       {
         _::__::____::only();
       }
 
-      void it()
+      static void it()
       {
         _::__::___::was();
       }
 
-      void go()
+      static void go()
       {
       }
  

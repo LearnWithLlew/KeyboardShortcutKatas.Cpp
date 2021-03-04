@@ -12,62 +12,62 @@ namespace _
     class __
     {
     public:
-      void wood()
+      static void wood()
       {
         _::__::___::The();
       }
 
-      void made()
+      static void made()
       {
         _::___::__::from();
       }
 
-      void from()
+      static void from()
       {
         _::___::_____::wood();
       }
 
-      void the()
+      static void the()
       {
         _::___::__::wheels();
       }
 
-      void wheels()
+      static void wheels()
       {
         _::__::_____::from();
       }
 
-      void engine()
+      static void engine()
       {
         _::__::____::was();
       }
 
-      void tricky()
+      static void tricky()
       {
         _::___::__::to();
       }
 
-      void to()
+      static void to()
       {
         _::__::_____::make();
       }
 
-      void It()
+      static void It()
       {
         _::___::__::was();
       }
 
-      void was()
+      static void was()
       {
         _::___::__::a();
       }
 
-      void a()
+      static void a()
       {
         _::___::___::beautiful();
       }
 
-      void piece()
+      static void piece()
       {
         _::__::___::of();
       }

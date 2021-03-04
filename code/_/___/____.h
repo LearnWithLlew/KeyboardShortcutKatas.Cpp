@@ -11,32 +11,32 @@ namespace _
     class ____
     {
     public:
-      void I()
+      static void I()
       {
         _::___::___::once();
       }
 
-      void from()
+      static void from()
       {
         _::___::__::wood();
       }
 
-      void made()
+      static void made()
       {
         _::___::__::the();
       }
 
-      void The()
+      static void The()
       {
         _::__::_____::doors();
       }
 
-      void right()
+      static void right()
       {
         _::__::_____::down();
       }
 
-      void wooden()
+      static void wooden()
       {
         _::___::_____::go();
       }

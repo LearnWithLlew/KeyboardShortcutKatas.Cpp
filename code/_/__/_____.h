@@ -11,37 +11,37 @@ namespace _
     class _____
     {
     public:
-      void from()
+      static void from()
       {
         _::__::___::wood();
       }
 
-      void doors()
+      static void doors()
       {
         _::__::_____::and();
       }
 
-      void and()
+      static void and()
       {
         _::__::_____::hinges();
       }
 
-      void hinges()
+      static void hinges()
       {
         _::___::_____::all();
       }
 
-      void make()
+      static void make()
       {
         _::__::__::but();
       }
 
-      void down()
+      static void down()
       {
         _::___::___::to();
       }
 
-      void ebony()
+      static void ebony()
       {
         _::__::___::piston();
       }

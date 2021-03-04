@@ -11,37 +11,37 @@ namespace _
     class ___
     {
     public:
-      void a()
+      static void a()
       {
         _::__::__::car();
       }
 
-      void The()
+      static void The()
       {
         _::__::__::chassis();
       }
 
-      void I()
+      static void I()
       {
         _::___::____::made();
       }
 
-      void wood()
+      static void wood()
       {
         _::___::____::The();
       }
 
-      void piston()
+      static void piston()
       {
         _::___::_____::rings();
       }
 
-      void of()
+      static void of()
       {
         _::__::____::craftsmanship();
       }
 
-      void was()
+      static void was()
       {
         _::__::__::that();
       }

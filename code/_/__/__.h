@@ -11,27 +11,27 @@ namespace _
     class __
     {
     public:
-      void car()
+      static void car()
       {
         _::___::____::from();
       }
 
-      void chassis()
+      static void chassis()
       {
         _::__::__::was();
       }
 
-      void was()
+      static void was()
       {
         _::___::__::made();
       }
 
-      void but()
+      static void but()
       {
         _::__::____::all();
       }
 
-      void that()
+      static void that()
       {
         _::___::___::it();
       }

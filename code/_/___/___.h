@@ -13,42 +13,42 @@ namespace _
     class ___
     {
     public:
-      void once()
+      static void once()
       {
         _::___::___::made();
       }
 
-      void made()
+      static void made()
       {
         _::__::___::a();
       }
 
-      void from()
+      static void from()
       {
         _::__::____::wood();
       }
 
-      void to()
+      static void to()
       {
         _::___::___::the();
       }
 
-      void the()
+      static void the()
       {
         _::__::_____::ebony();
       }
 
-      void beautiful()
+      static void beautiful()
       {
         _::___::__::piece();
       }
 
-      void with()
+      static void with()
       {
         _::___::_____::it();
       }
 
-      void it()
+      static void it()
       {
         _::___::____::wooden();
       }
