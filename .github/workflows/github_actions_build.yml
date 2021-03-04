@@ -1,0 +1,51 @@
+name: build
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    env:
+      BUILD_PATH: ${{ github.workspace }}/${{ matrix.relative_build_dir_path }}build_space
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - job-name: windows-latest
+          os: windows-latest
+          generator: '"Visual Studio 16 2019"'
+          relative_build_dir_path: ''
+
+        - job-name: ubuntu-18.04
+          os: ubuntu-18.04
+          generator: '"Unix Makefiles"'
+          relative_build_dir_path: ''
+
+        - job-name:  macOS-latest
+          os: macOS-latest
+          generator: '"Unix Makefiles"'
+          relative_build_dir_path: ''
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.job-name }}
+    steps:
+    - uses: actions/checkout@master
+
+    - name: configure
+      run: |
+        mkdir ${{ env.BUILD_PATH }}
+        cd ${{ env.BUILD_PATH }}
+        cmake --version
+        cmake -G ${{ matrix.generator }} ${{ github.workspace }} -DCMAKE_BUILD_TYPE=Debug
+    - name: build
+      run: |
+        cd ${{ env.BUILD_PATH }}
+        cmake --build . --parallel 4
+    - name: test
+      run: |
+        cd ${{ env.BUILD_PATH }}
+        ctest --verbose --output-on-failure -C Debug
