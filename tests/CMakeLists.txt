@@ -6,3 +6,4 @@ set(SOURCE_FILES
         NewTest.cpp)
 add_executable(KeyboardShortcutKatas.tests ${SOURCE_FILES} )
 add_test(NAME KeyboardShortcutKatas.tests COMMAND KeyboardShortcutKatas.tests)
+target_link_libraries(KeyboardShortcutKatas.tests KeyboardShortcutKatas.code)

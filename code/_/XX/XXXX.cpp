@@ -26,7 +26,7 @@ namespace X
 
     void XXXX::doors()
     {
-      ::X::XXX::XXXXX::and();
+      ::X::XXX::XXXXX::and_();
     }
 
     void XXXX::hinges()

@@ -11,7 +11,7 @@ namespace X
       ::X::XXX::XXXX::from();
     }
 
-    void XXXXX::and()
+    void XXXXX::and_()
     {
       ::X::XX::XXXX::hinges();
     }

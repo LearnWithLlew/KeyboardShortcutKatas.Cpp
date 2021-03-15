@@ -9,7 +9,7 @@ namespace X
     public:
       static void made();
 
-      static void and();
+      static void and_();
 
       static void wooden();
 
